@@ -7,8 +7,10 @@ var colore = prompt('qual è il tuo colore preferito ?');
 console.log(colore);
 var annoAttuale = 19;
 console.log(annoAttuale);
+var tuaPsw = nome + cognome + colore + annoAttuale;
 
 document.getElementById('nome').innerHTML = nome;
 document.getElementById('cognome').innerHTML = cognome;
 document.getElementById('colore').innerHTML = colore;
 document.getElementById('annoAttuale').innerHTML = annoAttuale;
+document.getElementById('tuaPsw').innerHTML = tuaPsw;
